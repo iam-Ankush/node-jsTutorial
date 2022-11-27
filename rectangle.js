@@ -1,7 +1,8 @@
 
-var recFunc = function(){
-    console.log('This is a Rectangle Js File')
+exports.rectangle = function(l ,b){
+    console.log('Rectangle Area')
+    return l*b;
 }
 
 
-exports.recFunc = recFunc();
+// exports.recFunc = recFunc();

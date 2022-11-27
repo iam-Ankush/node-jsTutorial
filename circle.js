@@ -1,6 +1,6 @@
-
-const area = function(){
-    console.log("I am a circle file")
+exports.area = function(r){
+    console.log("Circle Area");
+    return Math.PI*r*r;
 }
 
-exports.area = area();
+// exports.area = area();
